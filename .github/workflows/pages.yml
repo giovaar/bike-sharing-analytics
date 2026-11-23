@@ -28,13 +28,14 @@ jobs:
       - run: npm test
       - run: npm run lint
       - run: node scripts/third-party-notices.mjs --check
-      - run: npm run build
+      - run: npm run build -- --base=/bike-sharing-analytics/
       - run: npm run test:build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web/dist
 
   deploy:
+    if: github.repository == 'giovaar/bike-sharing-analytics'
     needs: build
     runs-on: ubuntu-latest
     permissions:

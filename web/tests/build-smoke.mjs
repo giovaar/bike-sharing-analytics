@@ -25,7 +25,7 @@ try {
   const notices = await fetch(new URL('THIRD_PARTY_NOTICES.txt', url));
   assert.equal(notices.status, 200);
   assert.deepEqual(Buffer.from(await notices.arrayBuffer()), await readFile('public/THIRD_PARTY_NOTICES.txt'));
-  const assets = [...(await index.text()).matchAll(/(?:src|href)="(\.\/assets\/[^"]+)"/g)].map(match => match[1]);
+  const assets = [...(await index.text()).matchAll(/(?:src|href)="((?:\.\/|\/bike-sharing-analytics\/)assets\/[^"]+)"/g)].map(match => match[1]);
   assert.ok(assets.length >= 2);
   for (const asset of assets) assert.equal((await fetch(new URL(asset, url))).status, 200);
   for (const file of allowed) {
