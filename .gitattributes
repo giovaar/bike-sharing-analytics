@@ -1,0 +1,4 @@
+* text=auto eol=lf
+academic/*.csv -text
+web/public/data/* -text
+web/public/THIRD_PARTY_NOTICES.txt -text

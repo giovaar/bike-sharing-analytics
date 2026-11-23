@@ -1,0 +1,80 @@
+{
+  "attribution": {
+    "creator": "Hadi Fanaee-T",
+    "dataset": "Bike Sharing",
+    "doi": "10.24432/C5W894",
+    "license": "CC BY 4.0",
+    "source": "https://archive.ics.uci.edu/dataset/275/bike-sharing-dataset",
+    "system": "Capital Bikeshare"
+  },
+  "codes": {
+    "weather": {
+      "1": "Despejado o parcialmente nublado",
+      "2": "Neblina o nublado",
+      "3": "Lluvia o nieve ligera",
+      "4": "Tiempo severo"
+    },
+    "weekday": {
+      "0": "Domingo",
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado"
+    },
+    "workingday": {
+      "0": "Fin de semana o feriado",
+      "1": "Día laborable"
+    }
+  },
+  "columns": {
+    "casual": "integer",
+    "date": "date",
+    "hour": "integer",
+    "registered": "integer",
+    "temperatureNormalized": "decimal",
+    "total": "integer",
+    "weather": "integer",
+    "weekday": "integer",
+    "workingday": "integer"
+  },
+  "dateRange": [
+    "2011-01-01",
+    "2012-12-31"
+  ],
+  "encoding": "UTF-8",
+  "fieldOrder": [
+    "date",
+    "hour",
+    "weekday",
+    "workingday",
+    "weather",
+    "temperatureNormalized",
+    "casual",
+    "registered",
+    "total"
+  ],
+  "inputsSha256": {
+    "day.csv": "a6bcf826782d3c0fbfdcbeead17cd0884185a0dafe8ff10cd48a874ee7ba18be",
+    "hour.csv": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+    "phase-1b-metrics": "a8cd70172fb57c1f17bd06ec981c929acb6fb6053cd6adbd5e2de3d628428faa",
+    "phase-2a-metrics": "82cc8dcc6a0c0526797d26986013235ea59b545c01178906986bad43e6f9b964"
+  },
+  "location": "Washington, D.C., USA",
+  "outputsSha256": {
+    "evaluations.json": "67262f2bd4d5ccbaa680cb6415b5d129ddbc5c7427a4b5e055b5f306b9ac1cb2",
+    "hourly.csv": "e99d0f5ecc88eeb9faf38a8b82c841b3bf8b0328339310b440dd68e6208493e0",
+    "quality.json": "0fce44e862070481084f42b644e9c86e6aee59b6510e639b6ab41ca5f4e90d58"
+  },
+  "schemaVersion": "1.0.0",
+  "units": {
+    "casual": "rentals",
+    "coverage": "calendar hours",
+    "date": "YYYY-MM-DD",
+    "hour": "calendar hour 0–23, no timezone encoded",
+    "registered": "rentals",
+    "temperatureNormalized": "normalized [0, 1]",
+    "total": "rentals"
+  }
+}

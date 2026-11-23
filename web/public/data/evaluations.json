@@ -1,0 +1,75 @@
+{
+  "academic": {
+    "classification": [
+      {
+        "model": "Random Forest Classifier",
+        "testAccuracy": 0.880897583429229,
+        "trainAccuracy": 1.0
+      },
+      {
+        "model": "KNN Classifier",
+        "testAccuracy": 0.7292865362485615,
+        "trainAccuracy": 0.80407106379918
+      }
+    ],
+    "classificationStratified": true,
+    "datasetEndDate": "2012-12-31",
+    "datasetStartDate": "2011-01-01",
+    "phase": "1B",
+    "regression": [
+      {
+        "model": "Random Forest Regressor",
+        "testMae": 24.722565748465673,
+        "testR2": 0.9448309495522738,
+        "testRmse": 41.79653903697033,
+        "trainR2": 0.9924735468392207
+      },
+      {
+        "model": "SVR",
+        "testMae": 67.94266839532298,
+        "testR2": 0.5973340551899486,
+        "testRmse": 112.91847844172032,
+        "trainR2": 0.6044661698447302
+      }
+    ],
+    "seed": 42,
+    "split": "random-80-20",
+    "testRecords": 3476,
+    "trainRecords": 13903
+  },
+  "temporal": {
+    "phase": "2A",
+    "regression": [
+      {
+        "model": "Random Forest Regressor",
+        "testMae": 46.74996552121771,
+        "testR2": 0.8720785243692502,
+        "testRmse": 72.09946182587535
+      },
+      {
+        "model": "Hourly mean by working day",
+        "testMae": 79.95043497535264,
+        "testR2": 0.6480638995428767,
+        "testRmse": 119.58926633614539
+      }
+    ],
+    "split": "chronological-holdout",
+    "test": {
+      "endDate": "2012-12-31",
+      "records": 2168,
+      "startDate": "2012-10-01"
+    },
+    "train": {
+      "endDate": "2012-09-30",
+      "records": 15211,
+      "startDate": "2011-01-01"
+    },
+    "weatherSource": "observed"
+  },
+  "units": {
+    "accuracy": "fraction",
+    "mae": "rentals/hour",
+    "r2": "dimensionless",
+    "rmse": "rentals/hour"
+  }
+}

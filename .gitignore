@@ -1,0 +1,36 @@
+# Entornos y resultados locales de Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.tmp
+*.log
+*.pkl
+/artifacts/
+
+# Material local pendiente de revisión antes de publicar
+/docs/academic/
+/dashboard/powerbi/*.pbix
+/data/reference/panama/*.xlsx
+
+# Los notebooks originales conservan rutas locales en sus salidas
+/notebooks/*.ipynb
+
+# Fuentes y resultados históricos que se conservan en la copia local
+/data/
+/dashboard/
+/docs/phase-*.md
+/docs/provenance.json
+/scripts/run_notebooks.py
+/scripts/evaluate_temporal.py
+/scripts/export_web_data.py
+/tests/
+/requirements.lock.txt
+/pyproject.toml
+*.pickle
+.env
+.env.*

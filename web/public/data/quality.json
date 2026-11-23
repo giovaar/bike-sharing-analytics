@@ -1,0 +1,164 @@
+{
+  "coverage": {
+    "dailyRows": 731,
+    "endDate": "2012-12-31",
+    "expectedHours": 17544,
+    "missingHours": 165,
+    "months": [
+      {
+        "expectedHours": 744,
+        "missingHours": 56,
+        "month": "2011-01",
+        "observedHours": 688
+      },
+      {
+        "expectedHours": 672,
+        "missingHours": 23,
+        "month": "2011-02",
+        "observedHours": 649
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 14,
+        "month": "2011-03",
+        "observedHours": 730
+      },
+      {
+        "expectedHours": 720,
+        "missingHours": 1,
+        "month": "2011-04",
+        "observedHours": 719
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 0,
+        "month": "2011-05",
+        "observedHours": 744
+      },
+      {
+        "expectedHours": 720,
+        "missingHours": 0,
+        "month": "2011-06",
+        "observedHours": 720
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 0,
+        "month": "2011-07",
+        "observedHours": 744
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 13,
+        "month": "2011-08",
+        "observedHours": 731
+      },
+      {
+        "expectedHours": 720,
+        "missingHours": 3,
+        "month": "2011-09",
+        "observedHours": 717
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 1,
+        "month": "2011-10",
+        "observedHours": 743
+      },
+      {
+        "expectedHours": 720,
+        "missingHours": 1,
+        "month": "2011-11",
+        "observedHours": 719
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 3,
+        "month": "2011-12",
+        "observedHours": 741
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 3,
+        "month": "2012-01",
+        "observedHours": 741
+      },
+      {
+        "expectedHours": 696,
+        "missingHours": 4,
+        "month": "2012-02",
+        "observedHours": 692
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 1,
+        "month": "2012-03",
+        "observedHours": 743
+      },
+      {
+        "expectedHours": 720,
+        "missingHours": 2,
+        "month": "2012-04",
+        "observedHours": 718
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 0,
+        "month": "2012-05",
+        "observedHours": 744
+      },
+      {
+        "expectedHours": 720,
+        "missingHours": 0,
+        "month": "2012-06",
+        "observedHours": 720
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 0,
+        "month": "2012-07",
+        "observedHours": 744
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 0,
+        "month": "2012-08",
+        "observedHours": 744
+      },
+      {
+        "expectedHours": 720,
+        "missingHours": 0,
+        "month": "2012-09",
+        "observedHours": 720
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 36,
+        "month": "2012-10",
+        "observedHours": 708
+      },
+      {
+        "expectedHours": 720,
+        "missingHours": 2,
+        "month": "2012-11",
+        "observedHours": 718
+      },
+      {
+        "expectedHours": 744,
+        "missingHours": 2,
+        "month": "2012-12",
+        "observedHours": 742
+      }
+    ],
+    "observedHours": 17379,
+    "startDate": "2011-01-01"
+  },
+  "validations": {
+    "calendarConsistency": "passed",
+    "categoricalCodes": "passed",
+    "completeCalendarDates": "passed",
+    "schemaAndTypes": "passed",
+    "uniqueTimestampsAndIds": "passed",
+    "userCountsSumToTotal": "passed"
+  }
+}
